@@ -1,0 +1,23 @@
+{
+    "name": "@tigeuplus/utility",
+    "version": "v1.0.0",
+    "description": "Tigeu Network 프로젝트 Utility 모듈",
+    "main": "dist/index.js",
+    "private": false,
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": "./dist/index.js",
+        "./*": "./dist/*/index.js"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "author": "cobeol <cobeol0111@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^18.7.18"
+    },
+    "keywords": [
+        "tigeu"
+    ]
+}
