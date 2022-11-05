@@ -1,2 +1,2 @@
-export * from './Json';
-export * from './Hash';
+export * as Json from './Json';
+export * as Hash from './Hash';

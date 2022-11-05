@@ -1,6 +1,6 @@
 {
     "name": "@tigeuplus/utility",
-    "version": "v1.0.0",
+    "version": "v2.0.0",
     "description": "Tigeu Network 프로젝트 Utility 모듈",
     "main": "dist/index.js",
     "private": false,

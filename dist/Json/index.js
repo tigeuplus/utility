@@ -1,43 +1,19 @@
 "use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Json = void 0;
-const Parse_1 = require("./Parse");
-const Stringify_1 = require("./Stringify");
-/**
- * Json
- *
- * @since v1.0.0
- */
-class Json {
-    constructor() { }
-    /**
-     * 문자열 데이터를 Json으로 변환합니다
-     *
-     * @since v1.0.0
-     * @param data 데이터
-     * @returns any
-     */
-    parse(
-    /**
-     * 데이터
-     */
-    data) {
-        return (0, Parse_1.parse)(data);
-    }
-    /**
-     * Json 데이터를 문자열로 변환합니다
-     *
-     * @since v1.0.0
-     * @param data 데이터
-     * @returns string
-     */
-    stringify(
-    /**
-     * 데이터
-     */
-    data) {
-        return (0, Stringify_1.stringify)(data);
-    }
-}
-exports.Json = Json;
+__exportStar(require("./Parse"), exports);
+__exportStar(require("./Stringify"), exports);
 //# sourceMappingURL=index.js.map
